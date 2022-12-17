@@ -11,12 +11,6 @@
 
 <body>
     Hello Laravel!!<br>
-    <hr />
-    @foreach ($results as $result)
-    {{ $result->name }}
-    {{ $result->price }}
-    @endforeach
-    
 </body>
 
 </html>
